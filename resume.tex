@@ -1,0 +1,210 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% One Page Two Column Resume
+% LaTeX Template
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\documentclass[]{resume}
+\usepackage{fancyhdr}
+ 
+\pagestyle{fancy}
+\fancyhf{}
+ 
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{Glagolev}{Mikhail}{ \urlstyle{same}
+\href{mailto:mihpihnaty@gmail.com}{\underline {mihpihnaty@gmail.com}}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+
+\subsection{ITMO University}
+\descript{BS in Computer Science}
+\location{Sep 2017 - Jun 2023\\ Saint Petersburg, Russia}
+Member of Esports and Swedish clubs \\
+Took a time off during pandemic \\
+\href{https://github.com/ShuffleZZZ/ITMO#readme}{\underline{\bf github.com/ShuffleZZZ/ITMO}}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Coursework}
+\descript{Programming Related Subjects}
+\location{Year 4}
+Optimization Methods \\
+Software Testing \\
+Software Design \\
+Coding Theory \\
+\location{Year 3}
+Functional Programming \\
+Parallel Programming \\
+Translation Methods \\
+Numerical Methods \\
+Type Theory \\
+Frontend \\
+\location{Years 1-2}
+Algorithms and Data Structures \\
+Discrete Mathematics \\
+Mathematical Logic \\
+Operating Systems \\
+Advanced Java \\
+Advanced C++ \\
+Backend
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Links} 
+Github:// \href{https://github.com/ShuffleZZZ} {\underline {\bf ShuffleZZZ}} \\
+LinkedIn://  \href{https://www.linkedin.com/in/ShuffleZZZ/}{\underline {\bf ShuffleZZZ}} \\
+Telegram://  \href{https://t.me/Shuffle45}{\underline {\bf @Shuffle45}} \\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+\subsection{Programming}
+\location{Proficient:}
+Kotlin \textbullet{} Java \textbullet{} TypeScript \textbullet{} Javascript \\
+\location{Have expirience:}
+SQL \textbullet{} Python \textbullet{} C++ \textbullet{} Haskell \\
+\location{Familiar:}
+C \textbullet{} C\# \textbullet{} Perl \textbullet{} Idris \textbullet{} OCaml \\
+\location{Would like to learn:}
+GoLang \textbullet{} Rust \textbullet{} Carbon
+\sectionsep
+\subsection{Languages}
+{\bf Russian} - Native \\
+{\bf English} - Fluent \\
+{\bf Swedish} - Intermediate
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+\runsubsection{BIV}
+\descript{| Technical Lead }
+\location{Apr 2022 - Sep 2022 | 6 mos | Cherepovets, Russia}
+{\bf Project:} Insurance Web App
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Insisted on the common backend for web and mobile apps, achieving initial release 4 months ahead of the plan and data coherence
+\item Designed technical solutions for new business demands, allowing a release of non-planned high-priority features in short terms
+\item Developed application providing Single Sign-On for numerous internal systems
+\item Were responsible for sprint planning, estimation and decomposition of tasks
+\item Resolved issues out of developer's competence, Frontend and Devops included
+\end{tightemize}
+{\bf Technologies:} Java, Maven, Spring, Keycloak, Angular, Docker, Kubernetes, Jenkins
+\sectionsep
+
+\runsubsection{BIV}
+\descript{| Middle Java Developer }
+\location{Jan 2022 - Mar 2022 | 3 mos | Cherepovets, Russia}
+{\bf Core Team Developer}
+\begin{tightemize}
+\item Developed an ecosystem of internal libraries handling complicated cross-service data requests, allowing usage of microservices over established data sources
+\item Implemented Quarkus build-time extensions for metadata analysis
+\item Worked in a distributed remote team
+\end{tightemize}
+{\bf Technologies:} Java, Maven, Quarkus, Quarkus Extensions, Consul, HQL
+\sectionsep
+
+\runsubsection{BIV}
+\descript{| Junior Java Developer }
+\location{Sep 2022 - Dec 2022 | 4 mos | Cherepovets, Russia}
+\begin{tightemize}
+\item Enhanced document import service to work with DFS and update fields by run-time received functions, making it an immediate single-step process rather than three steps - 30 minutes in total
+\item Implemented a generic service for related versioned data, allowing to retrieve a changelog of records and optimized amount of update operations on request
+\end{tightemize}
+{\bf Technologies:} Java, Maven, Quarkus, JPA, Hibernate, GraalVM, AOP, DFS
+\sectionsep
+
+\runsubsection{ITMO University}
+\descript{| Undergraduate Teacher }
+\location{Sep 2020 - Feb 2021 | 6 mos | Saint Petersburg, Russia}
+{\bf Singly held a course in Node.js}
+\begin{tightemize}
+\item Lectured remotely by streaming during the pandemic
+\item Organized homework repositories with linters, tests, and CI, providing initial self-control for students
+\item Made code review to point out mistakes not found automatically
+\item Held a theoretical exam for students with lesser scores
+\end{tightemize}
+{\bf Technologies:} JavaScript, TypeScript, Node.js, Jest, Gitlab CI, ESLint, Prettier JS
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     RESEARCH
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Side Projects}
+\runsubsection{Kotlin Telegram Bot}
+\descript{}
+\location{Jul 2020 – Aug 2021}
+Telegram bot to notify groups of users at once. Written fully in Kotlin with group mate \\
+
+{\bf Bot:} \href{https://t.me/PullPartyBot}{\underline {\bf t.me/PullPartyBot}} \\
+{\bf Source code:} \href{https://github.com/pool-party/pull-party-bot}{\underline {\bf github.com/pool-party/pull-party-bot}} \\
+{\bf Technologies:} Kotlin, Coroutines, Gradle, PostgreSQL, Heroku, Test Containers
+
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     AWARDS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Achievements} 
+\begin{tabular}{rll}
+2016	     & Bronze Medalist  & Russian National Mathematics and Cryptography Olympiad
+\end{tabular}
+\sectionsep
+
+\end{minipage} 
+\end{document}  \documentclass[]{article}
