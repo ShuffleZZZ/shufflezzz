@@ -6,7 +6,7 @@
 
 - Apr 2022 - Oct 2022 | 7 mos: **Technical Lead** @ **BIV**, Cherepovets, Russia
 - Jan 2022 - Apr 2022 | 4 mos: **Middle Java Developer** @ **BIV**, Cherepovets, Russia
-- Sep 2022 - Dec 2022 | 4 mos: **Junior Java Developer** @ **BIV**, Cherepovets, Russia
+- Sep 2021 - Dec 2021 | 4 mos: **Junior Java Developer** @ **BIV**, Cherepovets, Russia
 - Sep 2020 - Feb 2021 | 6 mos: **Undergraduate Teacher** @ **ITMO University**, Saint Petersburg, Russia
 
 ## Education
